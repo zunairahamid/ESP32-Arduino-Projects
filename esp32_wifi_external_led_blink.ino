@@ -26,36 +26,44 @@ ported for sparkfun esp32
  */
 
 #include <WiFi.h>
+//add WiFi.h library
 
 const char *ssid = "Galaxy A51 7729";
+//My mobile hotspot ssid
 const char *password = "ukcb9557";
+//My mobile hotspot password
 
 NetworkServer server(80);
-
+//server is at 80
+//define and set up variables and environment
 void setup() {
   Serial.begin(115200);
+ //serial begins at 115200
   pinMode(23, OUTPUT);  // set the LED pin mode
-
+//configure LED at GPIO 23 pin as output
   delay(10);
-
+//wait for 10 milisecond
   // We start by connecting to a WiFi network
 
   Serial.println();
   Serial.println();
   Serial.print("Connecting to ");
   Serial.println(ssid);
+ //serial prints mobile hotspot network
 
   WiFi.begin(ssid, password);
-
+//WiFi must connect at mobile hotspot network and password
   while (WiFi.status() != WL_CONNECTED) {
+   //if it is not connected
     delay(500);
     Serial.print(".");
+   //print . at interval of every 0.5 second
   }
 
   Serial.println("");
   Serial.println("WiFi connected.");
   Serial.println("IP address: ");
-  Serial.println(WiFi.localIP());
+  Serial.println(WiFi.localIP()); //serial prints mobile hotspot IP address
 
   server.begin();
 }
@@ -82,8 +90,8 @@ void loop() {
             client.println();
 
             // the content of the HTTP response follows the header:
-            client.print("Click <a href=\"/H\">here</a> to turn the LED on pin 5 on.<br>");
-            client.print("Click <a href=\"/L\">here</a> to turn the LED on pin 5 off.<br>");
+            client.print("Click <a href=\"/H\">here</a> to turn the LED on pin 23 on.<br>");
+            client.print("Click <a href=\"/L\">here</a> to turn the LED on pin 23 off.<br>");
 
             // The HTTP response ends with another blank line:
             client.println();
