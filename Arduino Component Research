@@ -47,7 +47,7 @@ They are used in flight simulators, racing simulators, and other applications wh
 RC Controllers:
 Joysticks are also found in radio-controlled (RC) model aircraft, cars, and boats for controlling their movement. 
  
-Joystick is used in gaming controllers.
+
 
  
 
@@ -85,7 +85,7 @@ Example: Arduino Thermometer
 A common example is using a digital temperature sensor like the DS18B20 with an Arduino board to create a digital thermometer. The sensor measures the temperature and sends a digital signal to the Arduino, which then displays the temperature on an LCD screen or through serial communication. 
  
  
-Temperature sensor is used in digital thermometer.
+
 
 3. Mini reed:-
 Mini reed sensors, which are small reed switches actuated by a magnet, have numerous applications, especially in situations where space is limited or a small, reliable sensor is needed. These sensors are commonly used for proximity detection, position sensing, and as part of security systems. 
@@ -120,7 +120,7 @@ A magnet on a sliding switch can actuate a reed sensor inside a microphone, prov
 
  
   
-Reed switch is used in security system.
+
 
  4. Gas Detector:-
 Gas detector sensors are used in a wide range of applications to monitor and detect various gases in different environments, playing a crucial role in safety and environmental monitoring. These sensors are used in homes, industries, and even medical settings to detect leaks, monitor air quality, and prevent potential hazards. 
@@ -166,7 +166,7 @@ Gas sensors are used in mining operations to detect hazardous gases and ensure w
  
 
  
-Gas Sensor is used in lung cancer screening system.
+
 
 5. Touch sensor:-
 ouch sensors, which detect physical contact or proximity, have a wide array of applications, including smartphones, touchscreens, control panels, and industrial automation. They can replace mechanical buttons and switches, enhancing user interfaces and enabling features like gesture recognition. 
@@ -207,7 +207,7 @@ Inductive Touch Sensors:
 These sensors detect changes in inductance caused by nearby metallic objects. 
  
   
-Touch sensor is used in touch screen.
+
 
 
 6. Linear Hall Sensor:-
@@ -239,7 +239,7 @@ Potentiometer Replacement: In some applications, they can replace potentiometers
  
 
  
-Hall Effect sensors are used in gaming controllers.
+
 
 
 7. Ball Switch:-
@@ -258,8 +258,7 @@ Security camera control:
 Tilt switches can be used to adjust the camera angle or activate security measures based on the camera's orientation. 
  
 
- 
-Ball Switch sensor is used in smart home security system.
+
 
 
 8. Light Cup Sensor:-
@@ -341,7 +340,7 @@ Infrared sensors can detect movement and trigger alarms, acting as proximity sen
 
  
 
-Avoidance sensor is used in Automated Guided Vehicles (AGVs).
+
 
 
 11. Tracking:-
@@ -453,7 +452,7 @@ They are also used in specialized testing equipment to measure the force of impa
 
  
  
-Shock sensor being used in smart home security system.
+
 
 
 15 Light Blocking Sensor:-
@@ -543,7 +542,7 @@ DIY Electronics: Prototyping and experimenting with circuits.
 
 
  
-Push button sensor is used in micro switch.
+
 
 
 18. IR Reciever:-
@@ -576,7 +575,7 @@ They are also used in some smart home devices for lighting control and other aut
    
 
  
-IR Reciever sensors are used in remote control.
+
 
 
 19. Two-Color LED:-
@@ -603,7 +602,7 @@ DIY Projects: Hobbyists use them for various creative and informative displays.
  
 
  
-two-color leds are used to show charging status.
+
 
 
 20. RGB Led:-
@@ -643,7 +642,7 @@ RGB LEDs are a popular choice for hobbyists and makers in various electronics pr
 
 
  
-RGB Leds are used in decorative lighting.
+
 
 21. IR Emission Sensor:-
 
